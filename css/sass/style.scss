@@ -166,7 +166,7 @@ justify-content: center;
 }
 .advt{
     margin-left:$margin-left;
-    width:700px;
+    width:750px;
     height:40vh;
     padding-bottom:10px;
     padding-top:40px;
@@ -265,13 +265,13 @@ justify-content: center;
     height:50vh;
     background-color:white;
     margin-left: $margin-left;
-    h5{
+    h4{
         text-align: center;
         padding-bottom:10px;
         padding-top:10px;
     }
 }
-.search-del{
+.search{
     width:70%;
     border-radius:8px;
 }
@@ -356,6 +356,15 @@ justify-content: center;
         list-style-type: none;
     }
 }
+
+.history{
+    display:grid;
+    grid-template-columns: repeat(7,1fr);
+    color:grey;
+    margin-left:14%;
+    margin-top:10px;
+}
+
 
 .form{
     width: 80%;

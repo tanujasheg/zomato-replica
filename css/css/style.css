@@ -269,7 +269,7 @@ body {
 
 .city-list {
   margin-left: 10%;
-  background-color: #c69;
+  background-color: white;
   margin-right: 10%;
   padding: 7px; }
   .city-list ul {
@@ -309,9 +309,9 @@ body {
   list-style-type: none;
   display: inline; }
 
-.search-del {
-  width: 60%; }
-
+/*.search-del{
+    width:60%;
+}*/
 .footer-wrapper {
   background-color: #333;
   color: white; }
